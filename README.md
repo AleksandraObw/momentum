@@ -1,13 +1,13 @@
-# momentum
+# momentum clone
 
 Test task for internship application. HTML/CSS/JS
 
 See full text of specification under the cut
 
 <details>
-	<summary> Specification</summary>
+	<summary><h2> Specification</h2></summary>
 
-<h1>Тестовое задание для стажировки</h1>
+<h2>Тестовое задание для стажировки</h2>
 
 Необходимо реализовать веб-приложение `momentum`, аналог [расширения](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ru&pli=1).
 В приложении есть часы, дата, слайдер изображений, виджеты погоды, список задач.
@@ -62,8 +62,8 @@ See full text of specification under the cut
 </details> 
 
 
-+ *[View it in action on vercel.com](https://to-do-list-two-snowy.vercel.app/)*
++ *[View it in action on vercel.com](https://momentum-two-puce.vercel.app/)*
 + *[View code](https://github.com/AleksandraObw/momentum)*
 
-![Screenshot](https://github.com/AleksandraObw/momentum/blob/main/assets/screenshot1.png)
-![Screenshot](https://github.com/AleksandraObw/momentum/blob/main/assets/screenshot2.png)
+![Screenshot](https://github.com/AleksandraObw/momentum/blob/main/assets/screenshot1.jpg)
+![Screenshot](https://github.com/AleksandraObw/momentum/blob/main/assets/screenshot2.jpg)

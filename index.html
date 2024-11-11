@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksandra Obeshchenko">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/icon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>Momentum</title>
+</head>
+
+<body id="body">
+
+  <div class="body__top">
+    <!-- Weather block -->
+    <div id="weather-block" class="container top-block">
+      <p id="weather-city">Краснодар</p>
+      <p id="weather-temp"></p>
+      <p id="weather-conditions"></p>
+    </div>
+
+    <!-- Date and time block -->
+    <div id="date-block" class="container top-block">
+      <p id="date-time"></p>
+      <p id="date-week"></p>
+    </div>
+  </div>
+
+  <!-- To-do block -->
+  <div id="todo-block" class="container body__todo">
+      <form class="todo-block__input">
+          <input id="input" type="text" placeholder="Введите задание..." maxlength="50" autocomplete="off">
+          <button id="add">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+      </form>
+      <p id="error-msg" class="hidden error-message">Поле не может быть пустым!</p>
+    <div id="task-list" class="task-list">
+    </div>   
+  </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
